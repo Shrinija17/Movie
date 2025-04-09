@@ -10,9 +10,9 @@ st.title("AI Movie Production Agent 🎬")
 st.caption("Bring your movie ideas to life with the teams of script writing and casting AI agents")
 
 # Get Anthropic API key from user
-anthropic_api_key = st.text_input("Enter Anthropic API Key to access Claude Sonnet 3.5", type="password")
+anthropic_api_key = st.text_input("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", type="password")
 # Get SerpAPI key from the user
-serp_api_key = st.text_input("Enter Serp API Key for Search functionality", type="password")
+serp_api_key = st.text_input("a107e961a37116e6f0bb13ebdc4c86e9696a510eb33ef99a06b752c547c89e0b", type="password")
 
 if anthropic_api_key and serp_api_key:
     script_writer = Agent(
